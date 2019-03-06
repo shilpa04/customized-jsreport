@@ -1,10 +1,10 @@
 {
-  "name": "custom-jsreport",
+  "name": "customized-jsreport",
   "version": "1.0.0",
   "description": "customised reponse timeout",
   "main": "index.js",
   "scripts": {
-    "compile": "cross-env extensions_authentication_enabled=true custom-jsreport-compile",
+    "compile": "cross-env extensions_authentication_enabled=true customized-jsreport-compile",
     "start": "node server.js",
     "test": "mocha test --timeout 35000 && standard"
   },
@@ -17,7 +17,7 @@
     "jsreport-base": "2.0.2",
     "jsreport-browser-client": "2.0.0",
     "jsreport-child-templates": "1.0.0",
-    "custom-jsreport-chrome-pdf": "1.0.0",
+    "customized-jsreport-chrome-pdf": "1.0.0",
     "jsreport-cli": "2.0.3",
     "jsreport-core": "2.1.1",
     "jsreport-data": "2.0.1",
@@ -70,7 +70,7 @@
     "config.md",
     "example.server.js"
   ],
-  "custom-jsreport": {
+  "customized-jsreport": {
     "entryPoint": "server.js"
   },
   "keywords": [
@@ -80,12 +80,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shilpa04/custom-jsreport.git"
+    "url": "git+ssh://git@github.com/shilpa04/customized-jsreport.git"
   },
   "bugs": {
-    "url": "https://github.com/shilpa04/custom-jsreport/issues"
+    "url": "https://github.com/shilpa04/customized-jsreport/issues"
   },
-  "homepage": "https://github.com/shilpa04/custom-jsreport",
+  "homepage": "https://github.com/shilpa04/customized-jsreport",
   "standard": {
     "ignore": [
       "data/**"
