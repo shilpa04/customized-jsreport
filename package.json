@@ -17,7 +17,7 @@
     "jsreport-base": "2.0.2",
     "jsreport-browser-client": "2.0.0",
     "jsreport-child-templates": "1.0.0",
-    "customized-jsreport-chrome-pdf": "1.0.0",
+    "custom-jsreport-chrome-pdf": "1.0.0",
     "jsreport-cli": "2.0.3",
     "jsreport-core": "2.1.1",
     "jsreport-data": "2.0.1",
